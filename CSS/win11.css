@@ -1,0 +1,152 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  overflow: hidden;
+}
+.background {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+video{
+  position: absolute;
+}
+.desktop_icons {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: calc(100vh - 32px);
+  width: fit-content;
+  position: absolute;
+}
+.desktop_icon {
+  width: 65px;
+  height: 60px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 8pt;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  text-shadow: 0px 0px 2px rgb(0, 0, 0);
+}
+.desktop_icon:hover {
+  padding: 7px;
+  background: rgba(255, 255, 255, 0.103);
+  border: 1px solid rgb(219, 219, 255);
+}
+.desktop_icon img {
+  width: 45px;
+  height: 45px;
+}
+#startmenu {
+  position: absolute;
+  width: 500px;
+  height: 565px;
+  bottom: -565px;
+  left: calc(50vw - 250px);
+  transition: 0.4s;
+  border-radius: 10px;
+  background: #e0ecfe;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.295);
+}
+.startSearch {
+  padding-left: 15px;
+  position: relative;
+  top: 25px;
+  left: 25px;
+  width: 446px;
+  height: 27px;
+}
+.pinned {
+  position: relative;
+  top: 67px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 195px;
+  /* background: red; */
+}
+.startmenu .icon {
+  margin: 0px 25px;
+  width: 25px;
+  height: 25px;
+}
+#startmenuimg {
+  position: absolute;
+  width: 500px;
+  bottom: -565px;
+  left: calc(50vw - 250px);
+  transition: 0.4s;
+  border-radius: 10px;
+  opacity: 0.5;
+}
+.taskbar {
+  display: flex;
+  position: absolute;
+  bottom: 0%;
+  width: 100vw;
+  height: 32px;
+  background-image: linear-gradient(to right, #e4eefa, #d7dff4, #e4eefa);
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.199);
+  opacity: 0.95;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.taskbar .icon {
+  width: 24px;
+  height: 24px;
+  margin: 0px 4px;
+}
+.taskbar .icons div:hover {
+  background: rgba(255, 255, 255, 0.774);
+}
+
+
+
+.taskbar .icons div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.task_bar_right {
+  position: absolute;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: 32px;
+}
+.smallicons {
+  width: 18px;
+  height: 18px;
+  margin: 0px 4px;
+}
+.dateTime {
+  text-align: center;
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 10pt;
+}
+.hovr { background:rgba(255, 255, 255, 0.774); }
